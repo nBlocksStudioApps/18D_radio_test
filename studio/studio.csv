@@ -1,0 +1,6 @@
+Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,Parameter 4,nBlocksParameter4,Parameter 5,nBlocksParameter5,Parameter 6,nBlocksParameter6,Parameter 7,nBlocksParameter7,ComponentLink1URL,nBlocksParameter8,Parameter 9,nBlocksParameter9
+
+"A1","Ticker","","1000","","","","","","","","","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker","","",""
+"A2","Counter","AutoResetValue","10","","","","","","","","","","","","","https://github.com/nBlocksStudioNodes/nblocks_counter","","",""
+"A3","StringFormat","formatString","""%d""","","","","","","","","","","","","","https://github.com/nBlocksStudioNodes/nblocks_stringformat","","",""
+"A4","nRF5xRadio","Mode","RADIO_MODE_TX_ONLY","Rate","RADIO_RATE_2M","Freq=2.4","2","Payload","20","Address0","0xC0","Address1","0x55","Address2","0x42","https://github.com/nBlocksStudioNodes/nblocks_nrf5xradio","0xBB","Address4","0xC2"

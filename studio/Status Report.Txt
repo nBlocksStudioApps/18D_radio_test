@@ -1,0 +1,10 @@
+Output: WireList Netlist
+Type  : WireListNetlist
+From  : Project [18D_radio_test.PrjPcb]
+   Generated File[studio.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 5:52:58 PM On 16-Dec-20
