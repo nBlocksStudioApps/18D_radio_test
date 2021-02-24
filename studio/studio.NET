@@ -1,24 +1,14 @@
 Wire List
 
 <<< Component List >>>
-Ticker                          A1             
-Counter                         A2             
-StringFormat                    A3             
-nRF5xRadio                      A4             
+nRF5xRadio                      B1             
+StringSerial                    B2             
 
 <<< Wire List >>>
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00004] NetA3_2
-        A3         2       OUT            OUTPUT      StringFormat
-        A4         1       ValueIn        INPUT       nRF5xRadio
-
-[00003] NetA2_3
-        A2         3       OUT            OUTPUT      Counter
-        A3         1       IN             INPUT       StringFormat
-
-[00001] NetA1_1
-        A1         1       OUT            OUTPUT      Ticker
-        A2         1       COUNT-IN       INPUT       Counter
+[00002] NetB1_2
+        B1         2       ValueOut       OUTPUT      nRF5xRadio
+        B2         1       TX             INPUT       StringSerial
 
